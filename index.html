@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <!--mi hoja de estilo-->
-  <link rel="stylesheet" href="assets/css/stylesheet.css">
+  
   <!--tipografias-->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet"> 
   <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet"> 
@@ -13,7 +12,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <!--iconos-->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous"> 
- 
+  <!--mi hoja de estilo, que vaya siempre al final-->
+  <link rel="stylesheet" href="assets/css/stylesheet.css">
 
   <title>Portfolio Cecilia</title>
 </head>
@@ -59,20 +59,21 @@
   <div class="container">
     <h1>Sobre mí</h1>
     <div class="row">
-      <div class="col-lg-6 col-md-6">
-       <p> is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accid
-      </p>
+      <div class="col-lg-6 col-md-6" style="text-align:left;">
+       <p> Diseñadora Industrial licenciada en Diseño de Objetos y con Magíster en Diseño Sistémico (aplicado a productos, servicios y territorio)
+        Con experiencia en equipos multidisciplinarios y multiculturales. Poseo un amplio conocimiento en metodologías como el co-design, design thinking y diseño centrado en el usuario. </p>
       </div>
 
-      <div class="col-lg-6 col-md-6">
-        <p> is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accid
-       </p>
+      <div class="col-lg-6 col-md-6" style="text-align:left;">
+        <p> Como diseñadora mi objetivo es contribuir a mejorar la calidad de vida de las personas a través de proyectos que otorguen una experiencia de calidad, haciendo uso de las tecnologías y considerando el sistema y contexto en el que se insertan. </p>
        </div>
     </div>
   </div>
+  <!--agregar habilidades con un bootstrap-->
 </section>
 <!--ULTIMOS TRABAJOS GALERIA-->
 <section class="container" id="misultimostrabajos">
+  <h1>Mis últimos trabajos</h1>
 <div class="row">
   <div class="col-md-12">
 
@@ -83,18 +84,18 @@
       <figure class="col-md-4">
         <a class="black-text" href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(121).jpg"
           data-size="1600x1067">
-          <img alt="picture" src="assets/"
+          <img alt="picture" src="assets/img/eatfit.png"
             class="img-fluid">
-          <h3 class="text-center my-3">Photo title</h3>
+          <h3 class="text-center my-3">Eatfit: app para deportistas y restaurantes</h3>
         </a>
       </figure>
 
       <figure class="col-md-4">
         <a class="black-text" href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(96).jpg"
           data-size="1600x1067">
-          <img alt="picture" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(96).jpg"
+          <img alt="picture" src="assets/img/fablab.jpg"
             class="img-fluid" />
-          <h3 class="text-center my-3">Photo title</h3>
+          <h3 class="text-center my-3">Virtual tour Fablab Torino</h3>
         </a>
       </figure>
 
@@ -103,7 +104,7 @@
           data-size="1600x1067">
           <img alt="picture" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(104).jpg"
             class="img-fluid" />
-          <h3 class="text-center my-3">Photo title</h3>
+          <h3 class="text-center my-3">Suricata</h3>
         </a>
       </figure>
 
@@ -112,7 +113,7 @@
           data-size="1600x1067">
           <img alt="picture" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(45).jpg"
             class="img-fluid" />
-          <h3 class="text-center my-3">Photo title</h3>
+          <h3 class="text-center my-3">Iguana</h3>
         </a>
       </figure>
 
@@ -167,8 +168,32 @@
 </div>
 </section>
 
-<!--EDUCACION -->
+<!--EDUCACION-->
+<section class="intro"id="educacion">
+  <div class="container">
+    <h1>Educacion &darr;</h1>
+  </div>
+</section>
 
+<section class="timeline">
+  <ul>
+    <li>
+      <div>
+        <time>2015-2018</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
+      </div>
+    </li>
+    <li>
+      <div>
+        <time>2014-2015</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
+      </div>
+    </li>
+    <li>
+      <div>
+        <time>2009-2013</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
+      </div>
+    </li>
+  </ul>
+</section>
 <!--Y EXPERIENCIA// *** -->
 <section class="intro"id="experiencia">
   <div class="container">
@@ -180,62 +205,17 @@
   <ul>
     <li>
       <div>
-        <time>1934</time> At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+        <time>2019</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
       </div>
     </li>
     <li>
       <div>
-        <time>1937</time> Proin quam velit, efficitur vel neque vitae, rhoncus commodo mi. Suspendisse finibus mauris et bibendum molestie. Aenean ex augue, varius et pulvinar in, pretium non nisi.
+        <time>2018</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
       </div>
     </li>
     <li>
       <div>
-        <time>1940</time> Proin iaculis, nibh eget efficitur varius, libero tellus porta dolor, at pulvinar tortor ex eget ligula. Integer eu dapibus arcu, sit amet sollicitudin eros.
-      </div>
-    </li>
-    <li>
-      <div>
-        <time>1943</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
-      </div>
-    </li>
-    <li>
-      <div>
-        <time>1946</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
-      </div>
-    </li>
-    <li>
-      <div>
-        <time>1956</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
-      </div>
-    </li>
-    <li>
-      <div>
-        <time>1957</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
-      </div>
-    </li>
-    <li>
-      <div>
-        <time>1967</time> Aenean condimentum odio a bibendum rhoncus. Ut mauris felis, volutpat eget porta faucibus, euismod quis ante.
-      </div>
-    </li>
-    <li>
-      <div>
-        <time>1977</time> Vestibulum porttitor lorem sed pharetra dignissim. Nulla maximus, dui a tristique iaculis, quam dolor convallis enim, non dignissim ligula ipsum a turpis.
-      </div>
-    </li>
-    <li>
-      <div>
-        <time>1985</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
-      </div>
-    </li>
-    <li>
-      <div>
-        <time>2000</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
-      </div>
-    </li>
-    <li>
-      <div>
-        <time>2005</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
+        <time>2014</time> In mattis elit vitae odio posuere, nec maximus massa varius. Suspendisse varius volutpat mattis. Vestibulum id magna est.
       </div>
     </li>
   </ul>
@@ -254,7 +234,9 @@
     <h3 class="nombre">Cecilia Herrera</h3>
     
     <div class="rrss"> 
+    <a href= "https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile">
       <i class="fab fa-linkedin fa-3x"></i>
+    </a>
       <i class="fab fa-instagram fa-3x"></i>
       <i class="fab fa-facebook-square fa-3x"></i>
     </div>

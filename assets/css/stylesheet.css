@@ -1,4 +1,5 @@
-body{font-family: 'Open Sans', sans-serif;
+body {
+  font-family: 'Open Sans', sans-serif;
 
 }
 
@@ -11,6 +12,10 @@ body{font-family: 'Open Sans', sans-serif;
   object-fit: cover;
 }
 
+.sobremi{
+  background-color: #fff;
+  color: black;
+}
 
 @media screen and (max-width: 600px) {
 .sobremi{
@@ -33,7 +38,7 @@ body {
   background: #456990;
   color: #fff;
   overflow-x: hidden;
-  padding-bottom: 50px;
+  font-family: 'Open Sans'!important, sans-serif;
 }  /* INTRO SECTION
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
