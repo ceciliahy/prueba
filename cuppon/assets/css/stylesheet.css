@@ -1,0 +1,87 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+
+h1{
+letter-spacing: 0;
+color: #707070;
+opacity: 1;
+padding:30px;
+}
+
+h4, h5{
+    color: #707070;  
+}
+
+p{
+    color: #707070;  
+}
+.separacion{
+    height:30px;
+}
+
+.card{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.cuppon{
+    background-color:white;
+    text-align: center;
+
+
+}
+.cuppon img{
+    text-align:center;
+    height: 25px;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+.sub {
+    text-align: right; /* alineo precios a la derecha*/
+}
+
+span{
+    color:#28a745;
+}
+
+.preciodestacado{
+    font-size:25px;
+    margin-left: 10px;
+}
+
+/*formulario*/
+form{
+    background-color: #28a745;
+    margin: 5px; /*bordes respecto a la página*/
+    padding:20px; /*da borde dentro del recuadro*/
+}
+
+
+.titulo-form{
+    color: white;
+    font-size: 20px;
+    padding-left: 5px;
+}
+
+
+
+.btn-gray{
+    color:#707070;
+}
+
+footer p{
+    color: #707070 ;
+    text-align: center;
+    margin-left: 30px;
+    margin-right:30px;
+}
+footer{
+    text-align: center;
+}

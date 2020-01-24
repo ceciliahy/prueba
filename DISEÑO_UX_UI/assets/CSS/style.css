@@ -1,0 +1,164 @@
+body{
+    background: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav{
+    display:flex;
+    width:100vw;
+    height:80px;
+    align-items:center;
+    background-color:#000f08;
+   
+}
+
+.navegador__oscuro{
+    text-decoration: none; /*quita el color azul y linea del link*/
+    margin-top:0;
+}
+.nav__logo{
+   width: 40px;
+   margin-left: 50px;
+   background-color:white;
+   fill:white;
+}
+
+.icono svg{
+    width:30px;
+    fill:white;
+    align-items:center;
+
+}
+.icono{
+    text-decoration:none;  
+}
+nav ul{
+    list-style:none;
+    text-decoration:none;
+}
+nav ul li{
+    display:inline-block;
+    margin:0.1em;
+    vertical-align:middle;
+    color:white;
+    text-decoration:none;
+}
+
+.hero__section{
+    background-image:url(../img/bg-hero.png);
+    background-repeat:no-repeat;
+    background-size:cover; 
+    height: 340px;
+    color:white;
+    text-shadow:2px 3px 2px #707070;
+    padding:2px;
+   
+}
+
+.textoinicio{
+   text-align: right;
+   padding-top: 40px;
+}
+
+header h1,header p{
+    color:white
+}
+
+h1{
+    text-align: right;
+    margin-right: 197px;
+}
+
+.textoinicio p{
+    margin-right:197px;
+}
+main{
+    padding-bottom:70px;
+
+}
+main img{
+    height: 200px;
+    padding-top: 70px;
+}
+
+main p{
+    margin: auto;
+}
+
+.centrado{
+    margin:auto;
+    width:60%;
+}
+
+.we__work{
+    text-align:center;
+}
+
+#proxima{
+    background: #A4452C;
+}
+
+.charla-texto{
+    width:60%;
+    height: 85%;
+    color:white;
+    padding: 3px 20px 30px 25px;
+}
+
+.charla-texto h2{
+    line-height:18px;
+}
+
+.charla-speaker, .charla-texto{
+    display:inline-block;
+}
+
+.charla-speaker{
+    height:250px;  
+    margin-top: 20px;
+}
+
+#eventos__anteriores h2{
+    text-align:center;
+}
+
+#eventos__anteriores h3{
+    margin-left: 25px;
+}
+
+article{
+    display:inline-block;
+    padding:30px 82px 30px 82px;
+   
+}
+
+#eventos__anteriores img{
+    width:250px;
+}
+
+.fondo{
+    background-color:black;
+    text-align: center;
+}
+
+i{
+    color: white;
+    display:inline-block;
+    padding: 20px 20px 10px 20px;
+}
+
+footer p{
+    color:white;
+    padding-bottom: 20px;
+}
+
+/*pagina 2*/
+.pag2{
+    text-align: left;
+    padding-left: 270px;
+    padding-right: 270px;
+}
+
+.portada img{
+    width:700px;
+}

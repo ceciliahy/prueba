@@ -1,0 +1,66 @@
+body{
+    background:#000000;
+    font-family:'Raleway', sans-serif;
+}
+
+h1,h3, p{
+    color: #ffffff;
+    opacity:1;
+}
+
+p{
+    font-size: small;
+}
+.tituloiguana{
+    text-align: center;
+}
+
+.descripcion{
+    text-align: center;
+}
+.iguana-texto{
+    text-align:left;
+    width:40%;
+    margin:2px 70px 15px 20px;
+}
+
+.iguana_foto{
+    height: 200px;
+    object-fit: cover;
+}
+
+.iguana-texto, .iguana-foto{
+    display:inline-block;
+}
+#iconografia{
+    background-color:#1e1a13;
+    text-align:center;
+    padding-top:45px;
+}
+
+#iconografia h1{
+    text-align: center;
+}
+
+.icono{
+    color:#ffffff;
+}
+
+article{
+    display:inline-block;
+    padding:40px 80px;
+    text-align:center;
+}
+
+.galeria{
+    display:inline-block;
+    height:200px;
+    padding:90px 20px;
+    margin-left: 40px;
+    
+}
+footer{
+    background-color: #1e1a13;
+    text-align:center;
+    padding: 20px;
+}

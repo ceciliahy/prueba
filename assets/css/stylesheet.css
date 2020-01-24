@@ -12,10 +12,6 @@ body {
   object-fit: cover;
 }
 
-/*
-#port .textport{
-
-}
 
 /*----------------------------------*/
 .sobremi{
@@ -28,6 +24,7 @@ body {
 .sobremi{
   display: none;
 }
+
 
 }
 
@@ -396,7 +393,7 @@ h1 {
 
 .timeline ul {
   background: #1C1533;
-  padding: 50px 0;
+  padding: 20px 0;
 }
 
 .timeline ul li {
@@ -420,7 +417,7 @@ h1 {
   background: inherit;
 }
 
-.timeline ul li div {  /*caja color que va a la izquierda 2014-2015*/
+.timeline ul li div {  /*caja */
   position: relative;
   bottom: 0;
   width: 400px;
@@ -445,20 +442,20 @@ h1 {
   left: 45px;
 }
 
-.timeline ul li:nth-child(odd) div::before {  /*la puntita de la caja de edu CAMBIAR COLOR*/
+.timeline ul li:nth-child(odd) div::before {  /*las puntita de la derecha*/
   left: -15px;
   border-width: 8px 16px 8px 0;
-  border-color: transparent #BBD6E8 transparent transparent;
+  border-color: transparent #FFEAC6 transparent transparent;
 }
 
 .timeline ul li:nth-child(even) div {
   left: -439px;
 }
 
-.timeline ul li:nth-child(even) div::before {   /*la puntita de la caja de exp*/
+.timeline ul li:nth-child(even) div::before {   /*la puntita de la izquierda*/
   right: -15px;
   border-width: 8px 0 8px 16px;
-  border-color: transparent transparent transparent #F27774;
+  border-color: transparent transparent transparent #FFEAC6;
 }
 
 time {
@@ -539,14 +536,19 @@ footer{
   padding: 5px ;
 }
 
+.foot{
+  padding: 10px;
+  text-align: center;
+}
 i{
   color:white;
-  padding-left: 10px;
+  padding-left: 15px;
 }
 
 .nombre, .rrss{
   display:inline-block;       /* queda una al lado de la otra*/
   margin-top: 10px;
   margin-bottom: 10px;
+  
   
 }
