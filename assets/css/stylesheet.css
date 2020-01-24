@@ -1,3 +1,6 @@
+html{
+  scroll-behavior: smooth;
+}
 body {
   font-family: 'Open Sans', sans-serif;
 
@@ -24,8 +27,10 @@ body {
 .sobremi{
   display: none;
 }
+}
 
-
+.edu, .exp{
+  color: #1C1533;
 }
 
 /*----------------------------------*/
@@ -374,6 +379,7 @@ body {
 .intro {
   background: #F45B69;
   padding: 10px 0;
+  margin-top: -5px;
 }
 
 .container {
@@ -442,7 +448,7 @@ h1 {
   left: 45px;
 }
 
-.timeline ul li:nth-child(odd) div::before {  /*las puntita de la derecha*/
+.timeline ul li:nth-child(odd) div::before {  /*las puntita de la derecha en grande*/
   left: -15px;
   border-width: 8px 16px 8px 0;
   border-color: transparent #FFEAC6 transparent transparent;
@@ -452,7 +458,7 @@ h1 {
   left: -439px;
 }
 
-.timeline ul li:nth-child(even) div::before {   /*la puntita de la izquierda*/
+.timeline ul li:nth-child(even) div::before {   /*la puntita de la izquierda en grande*/
   right: -15px;
   border-width: 8px 0 8px 16px;
   border-color: transparent transparent transparent #FFEAC6;
