@@ -21,9 +21,9 @@
 
 <body>
     <!--BARRA DE NAVEGACION--> 
-    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:black"> <!--//cambiar colornavbar-dark para fondos oscuros letra se pondra blanca en contraste/ Style para color de fondo-->
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:#1C1533"> <!--//cambiar colornavbar-dark para fondos oscuros letra se pondra blanca en contraste/ Style para color de fondo-->
         <div class="container">            <!--esto lo agregué al codigo de boots para centrar el texto de la barra-->
-        <a class="navbar-brand" href="#"><h2 class="nombre">Cecilia Herrera</h2> </a>  <!-- CLASE en CSS ricomida//aqui podría ir un icono, en este caso texto-->
+        <a class="navbar-brand" href="#"><h class="nombre">Cecilia Herrera</h> </a>  <!-- CLASE en CSS ricomida//aqui podría ir un icono, en este caso texto-->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -49,19 +49,30 @@
 
 <!--HEADER-->
 <header>
-  <img src="assets/img/portada.jpg" style="width: 100vw; height:50%;">
+  <!--<img src="assets/img/portada.jpg" style="width: 100vw; height:50%;">-->
+ 
+
+  <tr>
+    <td>
+    <img src="assets/img/portada.jpg" style="width: 100vw; height:50%;"/>
+    <div style="position: absolute; top: 200px; left: 700px;"><h1>¡HOLA! soy <br>CECILIA HERRERA</h1></div>
+    </td>
+    </tr>
+
 </header>
 <!--SOBRE MI// PONER 2 COLUMNAS EN UNA IMAGEN Y LA OTRA TEXTO/ DESPARECE EN MOBILE-->
 <section class="sobremi" id="sobremi">
   <div class="container">
-    <h1>Sobre mí</h1>
+    <h1 style="text-align: left; color: #f27774; padding-left: 90px;">Sobre mí</h1> <!--agregue textalign-->
     <div class="row">
       <div class="col-lg-6 col-md-6" style="text-align:left;">
-       <p> Diseñadora Industrial licenciada en Diseño de Objetos y con Magíster en Diseño Sistémico (aplicado a productos, servicios y territorio)
-        Con experiencia en equipos multidisciplinarios y multiculturales. Poseo un amplio conocimiento en metodologías como el co-design, design thinking y diseño centrado en el usuario. </p>
+       <img src="assets/img/sobremip.png" style="width: 120%; height: 100%; ">
       </div>
 
       <div class="col-lg-6 col-md-6" style="text-align:left;">
+        <br>
+        <p> Diseñadora Industrial licenciada en Diseño de Objetos y con Magíster en Diseño Sistémico (aplicado a productos, servicios y territorio)
+          Con experiencia en equipos multidisciplinarios y multiculturales. Poseo un amplio conocimiento en metodologías como el co-design, design thinking y diseño centrado en el usuario. </p>
         <p> Como diseñadora mi objetivo es contribuir a mejorar la calidad de vida de las personas a través de proyectos que otorguen una experiencia de calidad, haciendo uso de las tecnologías y considerando el sistema y contexto en el que se insertan. </p>
        </div>
     </div>
@@ -72,7 +83,7 @@
 <!--ULTIMOS TRABAJOS GALERIA-->
 <section class="intro"id="misultimostrabajos">
   <div class="container">
-    <h1>Mis últimos trabajos &darr;</h1>
+    <h2>Mis últimos trabajos &darr;</h2>
   </div>
 </section>
 
@@ -135,109 +146,11 @@
 
 
 
-<!--
-<section class="container" id="misultimostrabajos">
-  <h1>Mis últimos trabajos</h1>-->
-  <!--
-<div class="row">
-  <div class="col-md-12">
-
-    <div id="mdb-lightbox-ui"></div>
-
-    <div class="mdb-lightbox no-margin">
-
-      <figure class="col-md-4">
-        <a class="black-text" href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(121).jpg"
-          data-size="1600x1067">
-          <img alt="picture" src="assets/img/eatfit.png"
-            class="img-fluid">
-          <h3 class="text-center my-3">Eatfit: app para deportistas y restaurantes</h3>
-        </a>
-      </figure>
-
-      <figure class="col-md-4">
-        <a class="black-text" href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(96).jpg"
-          data-size="1600x1067">
-          <img alt="picture" src="assets/img/fablab.jpg"
-            class="img-fluid" />
-          <h3 class="text-center my-3">Virtual tour Fablab Torino</h3>
-        </a>
-      </figure>
-
-      <figure class="col-md-4">
-        <a class="black-text" href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(104).jpg"
-          data-size="1600x1067">
-          <img alt="picture" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(104).jpg"
-            class="img-fluid" />
-          <h3 class="text-center my-3">Suricata</h3>
-        </a>
-      </figure>
-
-      <figure class="col-md-4">
-        <a class="black-text" href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(45).jpg"
-          data-size="1600x1067">
-          <img alt="picture" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(45).jpg"
-            class="img-fluid" />
-          <h3 class="text-center my-3">Iguana</h3>
-        </a>
-      </figure>
-
-      <figure class="col-md-4">
-        <a class="black-text" href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(122).jpg"
-          data-size="1600x1067">
-          <img alt="picture" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(122).jpg"
-            class="img-fluid" />
-          <h3 class="text-center my-3">Photo title</h3>
-        </a>
-      </figure>
-
-      <figure class="col-md-4">
-        <a class="black-text" href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(115).jpg"
-          data-size="1600x1067">
-          <img alt="picture" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(115).jpg"
-            class="img-fluid" />
-          <h3 class="text-center my-3">Photo title</h3>
-        </a>
-      </figure>
-
-      <figure class="col-md-4">
-        <a class="black-text" href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(125).jpg"
-          data-size="1600x1067">
-          <img alt="picture" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(125).jpg"
-            class="img-fluid" />
-          <h3 class="text-center my-3">Photo title</h3>
-        </a>
-      </figure>
-
-      <figure class="col-md-4">
-        <a class="black-text" href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(115).jpg"
-          data-size="1600x1067">
-          <img alt="picture" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(115).jpg"
-            class="img-fluid" />
-          <h3 class="text-center my-3">Photo title</h3>
-        </a>
-      </figure>
-
-      <figure class="col-md-4">
-        <a class="black-text" href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(119).jpg"
-          data-size="1600x1067">
-          <img alt="picture" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(119).jpg"
-            class="img-fluid" />
-          <h3 class="text-center my-3">Photo title</h3>
-        </a>
-      </figure>
-
-    </div>
-
-  </div>
-</div>
-</section>
--->
 
 <!--EDUCACION Y EXPERIENCIA-->
 <section class="intro"id="educacionyexperiencia">
   <div class="container">
-    <h1>Educacion y Experiencia &darr;</h1>
+    <h2>Educacion y Experiencia &darr;</h2>
   </div>
 </section>
 
@@ -275,7 +188,7 @@
 
 
 <!--FORMULARIO DE CONTACTO BUSCAR EN TYPEFORM-->
-<div class="typeform-widget" id="contacto" data-url="https://cecilia376553.typeform.com/to/ZxMMgo" style="width: 100%; height: 400px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=ZxMMgo&utm_source=typeform.com-01DZ4HHCV7CK0YGPFXN3E8XX6J-free&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=ES" style="color: #999" target="_blank">Typeform</a> </div>
+<div class="typeform-widget" id="contacto" data-url="https://cecilia376553.typeform.com/to/ZxMMgo" style="width: 100%; height: 400px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Open sans;font-size: 12px;color: #999;opacity: 0; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=ZxMMgo&utm_source=typeform.com-01DZ4HHCV7CK0YGPFXN3E8XX6J-free&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=ES"></a> </div>
 
 <!--FOOTER-->
 <footer>  
